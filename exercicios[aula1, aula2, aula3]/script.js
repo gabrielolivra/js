@@ -38,9 +38,13 @@ function adicionarPessoa() {
         pessoas.push(pessoaAdicionada);
         console.log(pessoas);
         const resultado = document.querySelector(".resultados");
-        const paragrafo = document.createElement('p');
-        paragrafo.textContent = `Nome: ${nome} Sobrenome: ${sobrenome}, Peso: ${peso}, Altura: ${altura}`;
-        resultado.appendChild(paragrafo);
+        //forma 1 de exibir os resultados
+        resultado.innerHTML += `<p>Nome: ${nome} Sobrenome: ${sobrenome}, Peso: ${peso}, Altura: ${altura}</p>`;
+
+        //forma 2 de exibir os resultados
+        //const paragrafo = document.createElement('p');
+        // paragrafo.textContent = `Nome: ${nome} Sobrenome: ${sobrenome}, Peso: ${peso}, Altura: ${altura}`;
+        // resultado.appendChild(paragrafo);
 
 
 
