@@ -20,7 +20,7 @@ body {
 
 section {
     width: 600px;
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -58,21 +58,4 @@ form button {
     margin: 10px auto;
     height: 40px;
     ;
-}
-
-.title,
-.result {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 10px;
-}
-
-.resultado {
-    width: 80%;
-    margin: 10px auto;
-}
-
-.resultado p {
-    color: white;
 }

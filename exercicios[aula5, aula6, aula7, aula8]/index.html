@@ -10,20 +10,42 @@
 
 <body>
     <section class="container">
-        <h1>titulo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam explicabo ratione dignissimos,
-            voluptatum sed modi vel officiis nihil alias saepe illo voluptate dicta similique, nulla quasi cum at eum!
-        </p>
-        <form action="">
-            <label for="">Input text</label>
-            <input type="text" name="" id="">
-            <label for="">Input password</label>
-            <input type="password" name="" id="">
-            <label for="">Input email</label>
-            <input type="email" name="" id="">
-            <label for="">Input number</label>
-            <input type="number" name="" id="">
+        <h1>Calculo IMC</h1>
+        <div class="title">
+            <h1>IMC</h1>
+            <h1>Resultado</h1>
+        </div>
+        <div class="result">
+            <p>Menos do que 18.5</p>
+            <p>Abaixo do peso</p>
+        </div>
+        <div class="result">
+            <p>Entre 18.5 e 24.9</p>
+            <p>Peso normal</p>
+        </div>
+        <div class="result">
+            <p>Entre 25 e 29.9</p>
+            <p>Sobrepeso</p>
+        </div>
+        <div class="result">
+            <p>Entre 30 e 34.9</p>
+            <p>Obesidade grau 1</p>
+        </div>
+        <div class="result">
+            <p>Entre 35 e 39.9</p>
+            <p>Obesidade grau 2</p>
+        </div>
+        <div class="result">
+            <p>Mais do que 40</p>
+            <p>Obesidade grau 3</p>
+        </div>
+        <form action="" class="form">
+            <label for="">Input altura</label>
+            <input type="text" name="" id="" class="altura">
+            <label for="">Input peso</label>
+            <input type="text" name="" id="" class="peso">
             <button>Enviar</button>
+            <div class="resultado"></div>
         </form>
     </section>
     <script src="./assets/js/script.js"></script>
