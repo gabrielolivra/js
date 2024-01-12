@@ -31,7 +31,7 @@ console.log(verificarUser)
 
 const login = 'Gabriel';
 
-const senha = 'teste';
+const senha = 'test';
 
 if (login !== '' && senha !== '') {
     if (login === 'Gabriel' && senha === 'teste') {
