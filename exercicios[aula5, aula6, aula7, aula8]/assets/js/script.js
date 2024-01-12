@@ -56,10 +56,15 @@ function calcularImc() {
                 resultado.style.padding = '10px'
                 resultado.innerHTML = `<p>Fora de escopo</p>`
             }
+
+
         }
 
     }
     form.addEventListener('submit', obterDados);
+
 }
 
-calcularImc();
+
+
+calcularImc()
